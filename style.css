@@ -1,4 +1,4 @@
-/* Texting Block plugin CSS - scoped to .texting-block to avoid global changes */
+/* Texting Block Lite CSS (for inline message embeds) */
 .texting-block {
   display: flex;
   justify-content: center;
@@ -17,7 +17,6 @@
   background: #111;
   color: #ccc;
   font-family: monospace;
-  box-sizing: border-box;
 }
 
 .texting-block .header {
@@ -32,7 +31,6 @@
   letter-spacing: 0.3px;
   font-size: 10.5px;
   font-weight: 900;
-  font-family: monospace;
 }
 
 .texting-block .chat-body {
@@ -40,7 +38,6 @@
   flex-direction: column;
   gap: 10px;
   padding: 16px;
-  box-sizing: border-box;
 }
 
 .texting-block .message {
@@ -61,7 +58,6 @@
   gap: 3px;
   line-height: 1;
 }
-
 .texting-block .meta .dot { color: #888; }
 .texting-block .meta .time { color: #bbb; text-transform: uppercase; font-size: 8px; }
 
@@ -72,13 +68,11 @@
   max-width: 75%;
   word-break: break-word;
 }
-
 .texting-block .bubble.left {
   background: #232121;
   color: #aaa;
   border-radius: 8px 8px 8px 0;
 }
-
 .texting-block .bubble.right {
   background: #2b2b2b;
   color: #eee;
