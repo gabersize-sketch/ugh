@@ -1,8 +1,8 @@
 {
-  "name": "Texting Block Insert (Guinevere Plugin)",
+  "name": "Texting Block Lite",
   "version": "1.0.0",
-  "author": "ChatGPT",
-  "description": "Injects inline texting-style HTML blocks when prompts use [[texting]]...[[/texting]] or [[texting]] markers. Works with Guinevere-style themes by adding DOM and CSS safely.",
+  "author": "You",
+  "description": "Adds support for embedded <div class='texting-block'> elements inside Guinevere scenes.",
   "entry": "code.js",
   "style": "style.css"
 }
